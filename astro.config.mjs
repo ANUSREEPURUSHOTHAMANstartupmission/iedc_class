@@ -6,6 +6,5 @@ import svelte from "@astrojs/svelte";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://ANUSREEPURUSHOTHAMANstartupmission.github.io',
-  base: '/iedc_design',
   integrations: [tailwind(), svelte()]
 });
